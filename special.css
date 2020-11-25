@@ -40,34 +40,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
-img {
-	height: 50%;
-	width: 50%;
-	position: absolute;
-	top: 100px;
-	left: 80px;
-}
-
-article {
-	position: absolute;
-	top: 70px;
-	left: 500px;
-	padding: 5px;
-	margin: 10px;
-	line-height: 24px;
-	font-size: 16px;
-}
-
-section {
-	margin: 30px;
-}
-
-.about-2 {
-	position: absolute;
-	height: 30%;
-	width: 30%;
-	top: 650px;
-	left: 1200px;
-}
-
