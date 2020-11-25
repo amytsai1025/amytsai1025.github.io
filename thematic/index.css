@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
+section{
+	padding: 10px;
+	margin: 10px;
+}
+
+a{
+	color: green;
+}
+
+.intro{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 700px;
+  position: absolute;
+  left: 25%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.content{
+	position: absolute;
+	top: 50px;
+	left: 500px;
+	padding: 5px;
+	margin: 10px;
+}
+
