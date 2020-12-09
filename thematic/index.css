@@ -25,26 +25,55 @@ a{
 	color: green;
 }
 
+a:hover{
+	color: crimson;
+}
+
 .intro{
-	position: absolute;
-	top: 200px;
-	left: 100px;
+	float: left;
+	position: fixed;
+	top: 150px;
+	left: 50px;
 }
 
 .vl {
   border-left: 6px solid green;
-  height: 700px;
-  position: absolute;
-  left: 25%;
+  height: 800px;
+  position: fixed;
+  left: 27%;
   margin-left: -3px;
   top: 0;
 }
 
 .content{
 	position: absolute;
-	top: 50px;
+	top: 20px;
 	left: 500px;
 	padding: 5px;
 	margin: 10px;
 }
 
+h1{
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 6vh;
+}
+
+h1:hover{
+	color: crimson;
+}
+
+h2{
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 4vh;
+	text-align: center
+}
+
+h3{
+	font-family: 'East Sea Dokdo', cursive;
+	font-size: 2.5vh;
+	padding-left: 30px
+}
+
+article{
+	font-family: 'Homemade Apple', cursive;
+}
