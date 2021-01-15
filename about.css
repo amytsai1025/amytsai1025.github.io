@@ -16,7 +16,176 @@ body{
 	width: 100%;
 }
 
-ul {
+div {
+	margin: 0;
+}
+
+#div1{
+	float: right;
+	width: 120vh;
+	height: 60vh;
+	background-color: #1100C9;
+	color: white;
+	text-align: center;
+	font-size: 45vh;
+	line-height: 60vh;
+}
+
+#div2{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 30vh;
+	height: 70vh;
+	background-color: #FFD52E;
+}
+
+#div3{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 20vh;
+	height: 20vh;
+	background-color: #FA001D;
+}
+
+#vl1 {
+    position: fixed;
+    left: 30vh;
+    width: 1vh;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#vl2 {
+    position: fixed;
+    right: 120vh;
+    width: 1vh;
+    height: 60vh;
+    background-color: black;
+
+}
+
+#vl3 {
+    position: fixed;
+    right: 20vh;
+    bottom: 0;
+    width: 1vh;
+    height: 40vh;
+    background-color: black;
+}
+
+#hl1 {
+	position: fixed;
+	left: 0;
+	top: 30vh;
+	width: 30vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl2 {
+	position: fixed;
+	right: 0;
+	bottom: 20vh;
+	width: 20vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl3 {
+	position: fixed;
+	left: 30vh;
+	top: 60vh;
+	width: 100%;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl4 {
+	position: fixed;
+	left: 0;
+	top: 9vh;
+	width: 30vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl5 {
+	position: fixed;
+	left: 0;
+	top: 19vh;
+	width: 30vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#homediv {
+	position: fixed;
+	width: 30vh;
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 3vh;
+	font-family: "lobster";
+}
+
+#aboutdiv {
+	position: fixed;
+	top: 10vh;
+	width: 30vh;
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 3vh;
+	font-family: "lobster";
+}
+
+#specialdiv {
+	position: fixed;
+	top: 20vh;
+	width: 30vh;
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 3vh;
+	font-family: "lobster";
+}
+
+#engintro{
+	position: fixed;
+	right: 5vh;
+	top: 20px;
+	width: 110vh;
+	height: 60vh;
+	text-align: left;
+	color: #FFD52E;
+	line-height: 4vh;
+	font-family: "caveat";
+	font-size: 2.5vh;
+}
+
+#chintro{
+	position: fixed;
+	left: 38vh;
+	top: 63vh;
+	width: 110vh;
+	height: 60vh;
+	text-align: left;
+	color: black;
+	line-height: 4vh;
+}
+
+a{
+	color: #1100C9;
+}
+
+a:hover {
+	color: #FA001D;
+}
+
+/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,7 +205,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover 
 li a:hover {
   background-color: #111;
 }

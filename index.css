@@ -16,7 +16,7 @@ body{
 	width: 100%;
 }
 
-ul {
+/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,7 +36,7 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color to #111 (black) on hover 
 li a:hover {
   background-color: #111;
 }
@@ -97,4 +97,167 @@ article {
 
 section {
 	margin-top: 20px;
+}*/
+
+div {
+	margin: 0;
+}
+
+#div1{
+	float: right;
+	width: 120vh;
+	height: 60vh;
+	background-color: #FA001D;
+	color: white;
+	text-align: center;
+	font-size: 45vh;
+	line-height: 60vh;
+	font-family: "Lobster";
+}
+
+#div2{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 30vh;
+	height: 70vh;
+	background-color: #1100C9;
+}
+
+#div3{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 20vh;
+	height: 20vh;
+	background-color: #FFD52E;
+}
+
+#vl1 {
+    position: fixed;
+    left: 30vh;
+    width: 1vh;
+    height: 100vh;
+    background-color: black;
+
+}
+
+#vl2 {
+    position: fixed;
+    right: 120vh;
+    width: 1vh;
+    height: 60vh;
+    background-color: black;
+
+}
+
+#vl3 {
+    position: fixed;
+    right: 20vh;
+    bottom: 0;
+    width: 1vh;
+    height: 40vh;
+    background-color: black;
+}
+
+#hl1 {
+	position: fixed;
+	left: 0;
+	top: 30vh;
+	width: 30vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl2 {
+	position: fixed;
+	right: 0;
+	bottom: 20vh;
+	width: 20vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl3 {
+	position: fixed;
+	left: 30vh;
+	top: 60vh;
+	width: 100%;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl4 {
+	position: fixed;
+	left: 0;
+	top: 9vh;
+	width: 30vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#hl5 {
+	position: fixed;
+	left: 0;
+	top: 19vh;
+	width: 30vh;
+	height: 1vh;
+	background-color: black;
+}
+
+#homediv {
+	position: fixed;
+	width: 30vh;
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 3vh;
+	font-family: "lobster";
+}
+
+#aboutdiv {
+	position: fixed;
+	top: 10vh;
+	width: 30vh;
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 3vh;
+	font-family: "lobster";
+}
+
+#specialdiv {
+	position: fixed;
+	top: 20vh;
+	width: 30vh;
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+	font-size: 3vh;
+	font-family: "lobster";
+}
+
+#im {
+	position: fixed;
+	top: 62vh;
+	left: 34vh;
+	font-size: 10vh;
+	font-family: "lobster";
+}
+
+#amytsai {
+	position: fixed;
+	bottom: 5px;
+	left: 45vh;
+	font-size: 25vh;
+	color: #1100C9;
+	font-family: "lobster";
+}
+
+a{
+	color: #1100C9;
+}
+
+a:hover {
+	color: #FA001D;
 }
