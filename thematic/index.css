@@ -30,26 +30,21 @@ a:hover{
 }
 
 
-.intro{
-	float: left;
-	position: fixed;
-	top: 150px;
-	left: 50px;
-}
 
 .vl {
   border-left: 6px solid green;
   height: 800px;
   position: fixed;
-  left: 27%;
-  margin-left: -3px;
+  left: 50vh;
+  /*left: 27%;
+  margin-left: -3px;*/
   top: 0;
 }
 
 .content{
 	position: absolute;
 	top: 20px;
-	left: 500px;
+	left: 470px;
 	padding: 5px;
 	margin: 10px;
 }
@@ -57,11 +52,28 @@ a:hover{
 h1{
 	font-family: 'East Sea Dokdo', cursive;
 	font-size: 6vh;
-}
-
-h1:hover{
+	text-align: center;
 	color: crimson;
 }
+
+
+h1, h3 {
+  animation: move 3s;
+}
+
+@keyframes move {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
 
 h2{
 	font-family: 'East Sea Dokdo', cursive;
@@ -72,7 +84,7 @@ h2{
 h3{
 	font-family: 'East Sea Dokdo', cursive;
 	font-size: 2.5vh;
-	padding-left: 30px
+	text-align: center;
 }
 
 article{
@@ -80,12 +92,13 @@ article{
 }
 
 img {
-	position: absolute;
-	max-height: 60%;
-	max-height: auto
-	left: 110px;
-	top: 300px;
-	left: 110px;
+	position: fixed;
+	max-width: auto;
+	/*max-height: 60%;*/
+	max-height: 100vh
+	top:0;
+	/*top: 300px;
+	left: 110px;*/
 
 }
 
